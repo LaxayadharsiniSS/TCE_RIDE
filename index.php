@@ -10,6 +10,14 @@ session_start();
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;qph.fs.quoracdn.net&#x2F;main-qimg-4eca26cdc9a0c363842d6856862d1484"
+  intent="WELCOME"
+  chat-title="SHARE_TRIP"
+  agent-id="b8a0b5f0-0ae6-4d2d-b93a-bfe69acdfc4e"
+  language-code="en"
+></df-messenger>
 <style>
 body {
    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -162,6 +170,7 @@ input[type="checkbox"] {
     <footer style="font-family: cursive; text-align: center; margin-left: 20px; color: white;text-shadow: 2px 2px darkslategrey;">Tim Cahill</footer>
   </blockquote>
 </div>
+
 <footer class="page-footer blue">
 
   <div class="footer-copyright text-center "><b>© 2021 Copyright:</b>

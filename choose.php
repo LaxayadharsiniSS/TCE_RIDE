@@ -8,6 +8,14 @@
 <meta name="keywords" content="Onepage Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;qph.fs.quoracdn.net&#x2F;main-qimg-4eca26cdc9a0c363842d6856862d1484"
+  intent="WELCOME"
+  chat-title="SHARE_TRIP"
+  agent-id="b8a0b5f0-0ae6-4d2d-b93a-bfe69acdfc4e"
+  language-code="en"
+></df-messenger>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
 	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
