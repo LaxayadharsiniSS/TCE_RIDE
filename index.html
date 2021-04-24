@@ -1,0 +1,139 @@
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;qph.fs.quoracdn.net&#x2F;main-qimg-4eca26cdc9a0c363842d6856862d1484"
+  intent="WELCOME"
+  chat-title="SHARE_TRIP"
+  agent-id="b8a0b5f0-0ae6-4d2d-b93a-bfe69acdfc4e"
+  language-code="en"
+></df-messenger>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+  <style>
+body {
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url('bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+
+  background-size: cover;
+}
+* {
+   box-sizing: border-box;
+}
+h1 {
+   text-align: center;
+}
+form {
+   border: 1px solid rgb(182, 180, 180);
+   padding: 20px;
+   width: 800px;
+   margin-left: 20%;
+}
+input {
+   width: 100%;
+   border: 1px solid #ddd;
+   padding: 5px 10px;
+   height: 45px;
+   margin: 0px 0px 20px;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: 17px;
+}
+button {
+   margin: 10px auto 30px;
+   display: table;
+   font-size: 20px;
+   padding: 10px 30px;
+   background-color: #4caf50;
+   border: none;
+   color: #fff;
+   border-radius: 4px;
+   cursor: pointer;
+}
+button:hover {
+   opacity: 0.8;
+}
+input[type="checkbox"] {
+   height: 16px;
+   width: 16px;
+   margin-right: 5px;
+   float: left;
+}
+.Social button.twitter-btn,
+.Social button.facebook-btn {
+   width: 100%;
+   font-size: 18px;
+   margin: 0px 0px 10px;
+}
+.Social button.twitter-btn {
+   background-color: #26abfd;
+}
+.Social button.facebook-btn {
+   background-color: #3f68be;
+}
+.Social {
+   border-top: 1px solid #ddd;
+   padding-top: 30px;
+   margin-top: 30px;
+}
+.Social button i {
+   margin-right: 5px;
+   font-size: 20px;
+}
+@media (max-width: 1000px) {
+   form {
+      width: 100%;
+      margin-left: 0px;
+   }
+}
+</style>
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+    <h3>Mini Project-Cloud</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button><br>
+    <button onclick="window.location.href='choose.html'">Mini Project</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBmgzi8X3sZxYNDSzVdm1vo_ijcbcaZuoo",
+    authDomain: "share-trip-9ac02.firebaseapp.com",
+    projectId: "share-trip-9ac02",
+    storageBucket: "share-trip-9ac02.appspot.com",
+    messagingSenderId: "975439445980",
+    appId: "1:975439445980:web:45369457339d977cd81919"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
